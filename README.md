@@ -34,7 +34,8 @@
 - [RxPermissions](https://github.com/tbruyelle/RxPermissions)-Android runtime permissions powered by RxJava
 ```compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.2@aar'```
 - [RxLifecycle](https://github.com/trello/RxLifecycle)-Lifecycle handling APIs for Android apps using RxJava
-```compile 'com.trello.rxlifecycle2:rxlifecycle:2.0.1'
+```
+compile 'com.trello.rxlifecycle2:rxlifecycle:2.0.1'
 
 // If you want to bind to Android-specific lifecycles
 compile 'com.trello.rxlifecycle2:rxlifecycle-android:2.0.1'
@@ -46,13 +47,17 @@ compile 'com.trello.rxlifecycle2:rxlifecycle-components:2.0.1'
 compile 'com.trello.rxlifecycle2:rxlifecycle-navi:2.0.1'
 
 // If you want to use Kotlin syntax
-compile 'com.trello.rxlifecycle2:rxlifecycle-kotlin:2.0.1'```
+compile 'com.trello.rxlifecycle2:rxlifecycle-kotlin:2.0.1'
+```
 - [RxBus](https://github.com/AndroidKnife/RxBus)-Event Bus By RxJava.
-```compile ('com.hwangjr.rxbus:rxbus:2.0.0-beta') {
+```
+compile ('com.hwangjr.rxbus:rxbus:2.0.0-beta') {
     exclude group: 'com.jakewharton.timber', module: 'timber'
-}```
+}
+```
 - [RxVolley](https://github.com/kymjs/RxVolley)-RxVolley = Volley + RxJava(RxJava2.0) + OkHttp(OkHttp3)
-```compile 'com.kymjs.rxvolley:rxvolley:1.1.4'
+```
+compile 'com.kymjs.rxvolley:rxvolley:1.1.4'
 
 // If use okhttp function
 compile 'com.kymjs.rxvolley:okhttp:1.1.4'
@@ -60,10 +65,12 @@ compile 'com.kymjs.rxvolley:okhttp:1.1.4'
 compile 'com.kymjs.rxvolley:okhttp3:1.1.4'
 
 // If use image-loader function
-compile 'com.kymjs.rxvolley:bitmapcore:1.1.4'```
+compile 'com.kymjs.rxvolley:bitmapcore:1.1.4'
+```
 - [RxCache](https://github.com/VictorAlbertos/RxCache)-Reactive caching library for Android and Java
 ```compile "com.github.VictorAlbertos.RxCache:runtime:1.8.0-2.x"```
-```dependencies {
+```
+dependencies {
     // To use Gson 
     compile 'com.github.VictorAlbertos.Jolyglot:gson:0.0.3'
 
@@ -72,11 +79,13 @@ compile 'com.kymjs.rxvolley:bitmapcore:1.1.4'```
 
     // To use Moshi
     compile 'com.github.VictorAlbertos.Jolyglot:moshi:0.0.3'
-}```
+}
+```
 - [rx-preferences](https://github.com/f2prateek/rx-preferences)-Reactive SharedPreferences for Android
 ```compile 'com.f2prateek.rx.preferences2:rx-preferences:2.0.0-RC1'```
 - [RxGalleryFinal](https://github.com/FinalTeam/RxGalleryFinal)-Android图片单选/多选、拍照、裁剪、压缩。视频选择和录制。
-```compile 'cn.finalteam.rxgalleryfinal:library:0.0.3'
+```
+compile 'cn.finalteam.rxgalleryfinal:library:0.0.3'
     //rxgalleryfinal依赖appcompat-v7和recyclerview-v7扩展卡库
     compile 'com.android.support:recyclerview-v7:24.2.0'
     compile 'com.android.support:appcompat-v7:24.2.0'
@@ -85,7 +94,8 @@ compile 'com.kymjs.rxvolley:bitmapcore:1.1.4'```
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.facebook.fresco:fresco:0.12.0'
     compile 'com.github.bumptech.glide:glide:3.7.0'
-    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'```
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+```
 - [RxGroups](https://github.com/airbnb/RxGroups)-Easily group RxJava Observables together and tie them to your Android Activity lifecycle
 ```compile 'com.airbnb:rxgroups-android:0.3.5'```
 - [RxBluetooth](https://github.com/IvBaranov/RxBluetooth)-Android reactive bluetooth
