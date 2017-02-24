@@ -6,10 +6,9 @@
 ##Example 
 - [RengwuxianRxjava](https://github.com/androidmalin/RengwuxianRxjava)-RxJava 之扔物线《给Android开发者的 RxJava 详解》文章中的例子, RxJava 入门教程
 - [RxjavaRetrofitDemo](https://github.com/tough1985/RxjavaRetrofitDemo)-A demo show how to use Retrofit with Rxjava
-- [RxJavaSamples](https://github.com/THEONE10211024/RxJavaSamples)-收集了RxJava常见的使用场景，例子简洁、经典、易懂
 - [Intro-To-RxJava](https://github.com/Froussios/Intro-To-RxJava)-An extensive tutorial on RxJava
 - [rxandroidexamples](https://github.com/klnusbaum/rxandroidexamples)-A set of examples for using RxJava in Android
-- [RxJavaSamples](https://github.com/rengwuxian/RxJavaSamples)-RxJava 和 Retrofit 结合使用的几个最常见使用方式举例
+- ！[RxJavaSamples](https://github.com/rengwuxian/RxJavaSamples)-RxJava 和 Retrofit 结合使用的几个最常见使用方式举例
 - [Gifts-for-designers](https://github.com/xcc3641/Gifts-for-designers)-练习Rx
 - [RxJava-Android-Samples](https://github.com/kaushikgopal/RxJava-Android-Samples)-A set of examples for using RxJava in Android
 - [SeeWeather](https://github.com/xcc3641/SeeWeather)-RxJava+RxBus+Retrofit+Glide+Material Design Weather App
@@ -24,6 +23,7 @@
 
 ##Another Pack
 - [Awesome-RxJava](https://github.com/lzyzsd/Awesome-RxJava)-RxJava resources
+- ！[RxJavaSamples](https://github.com/THEONE10211024/RxJavaSamples)-收集了RxJava常见的使用场景，例子简洁、经典、易懂
 
 ##Some Links
 - [RxJava](https://github.com/ReactiveX/RxJava)-a library for composing asynchronous and event-based programs using observable sequences for the Java VM.
@@ -31,6 +31,26 @@
 - [RxAndroid](https://github.com/ReactiveX/RxAndroid)-RxJava bindings for Android
 ```compile 'io.reactivex.rxjava2:rxandroid:2.0.1'```
 - [RxBinding](https://github.com/JakeWharton/RxBinding)-RxJava binding APIs for Android's UI widgets.
+```
+Platform bindings:
+
+compile 'com.jakewharton.rxbinding:rxbinding:1.0.0'
+'support-v4' library bindings:
+
+compile 'com.jakewharton.rxbinding:rxbinding-support-v4:1.0.0'
+'appcompat-v7' library bindings:
+
+compile 'com.jakewharton.rxbinding:rxbinding-appcompat-v7:1.0.0'
+'design' library bindings:
+
+compile 'com.jakewharton.rxbinding:rxbinding-design:1.0.0'
+'recyclerview-v7' library bindings:
+
+compile 'com.jakewharton.rxbinding:rxbinding-recyclerview-v7:1.0.0'
+'leanback-v17' library bindings:
+
+compile 'com.jakewharton.rxbinding:rxbinding-leanback-v17:1.0.0'
+```
 - [RxPermissions](https://github.com/tbruyelle/RxPermissions)-Android runtime permissions powered by RxJava
 ```compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.2@aar'```
 - [RxLifecycle](https://github.com/trello/RxLifecycle)-Lifecycle handling APIs for Android apps using RxJava
